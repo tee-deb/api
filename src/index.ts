@@ -20,6 +20,6 @@ app.get('/',  (req, res) => {
   app.use('/products', productsRoutes);
 
   app.listen(port, () => {
-    console.log(`Ecommerce app is running on port ${port}`)
+    console.log(`Example app is running on port ${port}`)
   });
 

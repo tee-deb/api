@@ -9,9 +9,12 @@ export function getProductById(req: Request, res: Response)  {
 };
 
 export function createProduct(req: Request, res: Response)  {
+<<<<<<< HEAD
 
     console.log(req.body);
     
+=======
+>>>>>>> 54bbe2279e5135d06a42d35055b6f1f8eaa0e5f1
     res.send('createProduct');
 };
 
